@@ -3,7 +3,7 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <IncludePath>$(OpenCV)\include;F:\Git\PointFeatExtractForDSP\PointFeatExtractForDSP\inc;$(IncludePath)</IncludePath>
+    <IncludePath>$(OpenCV)\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(OpenCV)\x86\vc12\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>

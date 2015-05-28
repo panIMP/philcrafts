@@ -66,17 +66,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\inc\alg_pfe.h" />
-    <ClInclude Include="..\inc\error.h" />
-    <ClInclude Include="..\inc\imgMath.h" />
-    <ClInclude Include="..\inc\pointLocate.h" />
+    <ClInclude Include="..\inc\algBase.h" />
+    <ClInclude Include="..\inc\algFunction.h" />
+    <ClInclude Include="..\inc\algManage.h" />
+    <ClInclude Include="..\inc\algParam.h" />
+    <ClInclude Include="..\inc\algPreproc.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\alg_pfe.cpp" />
-    <ClCompile Include="..\src\error.cpp" />
-    <ClCompile Include="..\src\imgMath.cpp" />
+    <ClCompile Include="..\src\algBase.cpp" />
+    <ClCompile Include="..\src\algFunction.cpp" />
+    <ClCompile Include="..\src\algManage.cpp" />
+    <ClCompile Include="..\src\algPreproc.cpp" />
     <ClCompile Include="..\src\main.cpp" />
-    <ClCompile Include="..\src\pointLocate.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
